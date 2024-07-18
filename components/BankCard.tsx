@@ -30,7 +30,7 @@ const BankCard = ({ account, userName, showBalance = true }: CreditCardProps) =>
               </h2>
             </div>
             <p className="text-14 font-semibold tracking-[1.1px] text-white">
-              ●●●● ●●●● ●●●● <span className="text-16">{account?.mask}</span>
+              ●●●● ●●●● ●●●● <span className="text-16">${account?.mask}</span>
             </p>
           </article>
         </div>
@@ -41,13 +41,14 @@ const BankCard = ({ account, userName, showBalance = true }: CreditCardProps) =>
             width={20}
             height={24}
             alt="pay"
+            className="ml-8"
           />
           <Image 
             src="/icons/mastercard.svg"
             width={45}
             height={32}
             alt="mastercard"
-            className="ml-5"
+            className="ml-8"
           />
         </div>
 
