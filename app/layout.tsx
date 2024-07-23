@@ -10,8 +10,8 @@ const ibmPlexSerif = IBM_Plex_Serif({
  });
 
 export const metadata: Metadata = {
-  title: "Appex",
-  description: "Appex is a morden banking platform for everyone.",
+  title: "Horizon",
+  description: "Horizon is a morden banking platform for everyone.",
   icons:{
     icon:'/icons/logo.svg'
   }
